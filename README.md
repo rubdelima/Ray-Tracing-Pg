@@ -3,6 +3,7 @@
 Project from the course of "Graphics Processing" at the Federal University of Pernambuco (UFPE).
 Recursirve Ray Tracing implementation in C++. Using Phong's model for shading and reflection and refraction effects.
 Extra feature: Texture mapping into plane object.
+OBS: The last commit broke normal mode other than for textures, please, if you are going to test, go back to commit e0723993727ba5b926690d8ea7b525a5e8febd43
 
 ## Group
 
@@ -67,3 +68,10 @@ l light_x light_y light_z r g b
 
 4. Open the output.ppm file with a ppm viewer.
 
+## Images
+### Without textures
+![](https://github.com/rubdelima/RayTracingCPP/blob/main/images/best.png?raw=true)
+![](https://github.com/rubdelima/RayTracingCPP/blob/main/images/monitoria.png?raw=true)
+
+# With textures
+![](https://github.com/rubdelima/RayTracingCPP/blob/main/images/texture.png?raw=true)
